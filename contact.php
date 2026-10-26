@@ -327,7 +327,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <span>📧</span>
             <div>
                 <h3>Email</h3>
-                <p>info@example.com</p>
+                <p>ankitkumar20224@gmail.com</p>
             </div>
         </div>
 
@@ -335,7 +335,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <span>📞</span>
             <div>
                 <h3>Phone</h3>
-                <p>+91 98765 43210</p>
+                <p>+91 8882291407</p>
             </div>
         </div>
 
