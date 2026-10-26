@@ -1,6 +1,7 @@
 
 <?php
 require_once 'db.php';
+
 require_once __DIR__ . '/vendor/autoload.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -14,6 +15,8 @@ $message = '';
 $errors = [];
 $success = '';
 $emailWarning = '';
+
+load_env(__DIR__ . '/.env');
 
 function e($value) {
     return htmlspecialchars($value, ENT_QUOTES, 'UTF-8');
