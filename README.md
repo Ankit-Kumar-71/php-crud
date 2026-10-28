@@ -11,38 +11,61 @@ A simple CRUD application in plain PHP and MySQL for managing student records (a
 - Responsive, dependency-free UI
 - Contact form using PHPMailer
 
-## Tech stack
+## Tech Stack
 
 PHP 8+, MySQL, PDO, Composer (PHPMailer), HTML5, CSS3
 
 ## Setup
 
-1. Clone the repository
+1. **Clone the repository**
+
+   ```bash
    git clone https://github.com/Ankit-Kumar-71/php-crud.git
    cd php-crud
-   
-2. Install dependencies
+   ```
+
+2. **Install dependencies**
+
+   ```bash
    composer install
-3. Create the database and table
+   ```
+
+3. **Create the database and table**
+
+   ```bash
    mysql -u <user> -p < database.sql
-4. Configure credentials
+   ```
+
+4. **Configure credentials**
+
+   ```bash
    cp .env.example .env
+   ```
+
    Then edit `.env` with your MySQL username and password.
-5. Start the app
+
+5. **Start the app**
+
+   ```bash
    php -S localhost:8000
-   Open http://localhost:8000
+   ```
 
-## Project structure
+   Open [http://localhost:8000](http://localhost:8000).
 
-index.php     list students
-create.php    add a student
-edit.php      update a student
-delete.php    delete a student (POST only)
-contact.php   contact form
-db.php        PDO connection (reads .env)
-database.sql  database schema
+## Project Structure
 
-## Security notes
+```
+.
+├── index.php      # List students
+├── create.php     # Add a student
+├── edit.php       # Update a student
+├── delete.php     # Delete a student (POST only)
+├── contact.php    # Contact form
+├── db.php         # PDO connection (reads .env)
+└── database.sql   # Database schema
+```
+
+## Security Notes
 
 - Never commit `.env`; it is listed in `.gitignore`.
 - Planned improvements: CSRF tokens, authentication, pagination.
