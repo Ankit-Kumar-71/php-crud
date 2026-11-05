@@ -70,10 +70,6 @@ PHP 8+, MySQL, PDO, Composer (PHPMailer), HTML5, CSS3
 - Never commit `.env`; it is listed in `.gitignore`.
 - Planned improvements: CSRF tokens, authentication, pagination.
 
-## Screenshots
-
-_Add screenshots of the list and form pages here._
-
 ## Author
 
 Ankit Kumar – [GitHub](https://github.com/Ankit-Kumar-71)
